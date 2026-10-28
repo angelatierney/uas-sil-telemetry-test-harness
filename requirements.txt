@@ -1,0 +1,4 @@
+# UAS SIL Telemetry Test Harness — runtime & test dependencies
+pyyaml>=6.0.1
+pytest>=7.4.0
+pytest-cov>=4.1.0

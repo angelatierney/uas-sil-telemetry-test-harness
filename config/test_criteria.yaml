@@ -1,0 +1,14 @@
+# SIL flight-envelope / failsafe verification criteria
+# Used by SILAssertionEngine to evaluate parsed telemetry frames.
+
+flight_envelope:
+  max_altitude_m: 120.0
+  max_velocity_ms: 25.0
+  low_battery_threshold: 20.0
+  expected_failsafe_action: "RTL"
+
+# Circular geofence centered on the SIL home / launch point (WGS-84).
+geofence:
+  home_latitude_deg: 37.7749
+  home_longitude_deg: -122.4194
+  radius_m: 500.0
